@@ -1,0 +1,1 @@
+{"project":"project-name-blah","regions":[{"name":"europe-west1", "zones":["b","c","d"]},{"name":"europe-west2","zones":["a","b","c"]}],"filter":"any-name-filter"}
