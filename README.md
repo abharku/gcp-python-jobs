@@ -19,3 +19,4 @@ regions["zones"] = You can also specify list of zones your servers are in. Not a
 
 filter= A string to filter VMs you will like to stop start. The string can be any part of your VM name.
 
+Cloud Scheduler(https://cloud.google.com/scheduler/), GCP’s fully managed cron job scheduler, provides a straightforward solution for automatically stopping and starting VMs. By employing Cloud Scheduler with Cloud Pub/Sub (https://cloud.google.com/pubsub) to trigger Cloud Functions on schedule, you can stop and start groups of VMs identified with labels of your choice (created in Compute Engine). 
