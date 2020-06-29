@@ -1,2 +1,3 @@
 # gcp-python-jobs
-Contains all python resources for jobs
+Stop-All-VMs
+Start-All-VMs
