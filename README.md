@@ -3,7 +3,7 @@
 This repo cotains common python Cloud functions to do admin jobs in GCP. 
 
 
-start/Stop-VM-Instance:
+start/Stop-VM-Instance: GCP stop/start/restart Compute Engine resources on a schedule
 
 It's an utility function to stop all VM instances in a project. This can be used with Pub/Sub topic to stop VM instances when not needed and startup when needed. Typically with Cloud Scheduler you can deploy this script as cloud function and stop all your VMs at a given time. It tries to achieve following pattern:
 
