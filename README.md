@@ -12,7 +12,10 @@ It's an utility function to stop all VM instances in a project. This can be used
 Use the input.json file to send input to stop/start All VMs on a schedule. Change these values in your input.json
 
 project = Name of the project in which VMs are deployed
+
 regions = Array of json object which lists all regions you have your VMs defined in
+
 regions["zones"] = You can also specify list of zones your servers are in. Not all regions provide a,b,c zone
+
 filter= A string to filter VMs you will like to stop start. The string can be any part of your VM name.
 
